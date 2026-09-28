@@ -1,0 +1,15 @@
+{
+  "enabled": true,
+  "brokerHost": "your-broker-host",
+  "brokerPort": 1883,
+  "agentId": "ag_your_agent",
+  "username": "ag_your_agent",
+  "password": "REPLACE_WITH_YOUR_AGENT_PASSWORD",
+  "transport": "tcp",
+  "topicPrefix": "im",
+  "allowFrom": [
+    "*"
+  ],
+  "countersign": "REPLACE_WITH_YOUR_COUNTERSIGN",
+  "displayName": "Your Agent Name"
+}
